@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Term:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/term"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sterm"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Tamil:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject1"
+                android:textStyle="normal|bold|italic"
+                android:textAllCaps="false"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject1"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="English:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject2"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject2"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Hindi:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject3"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject3"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Maths:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject4"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject4"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Science:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject5"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject5"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Physics:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject6"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject6"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Chemistry:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject7"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject7"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Botany:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject8"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject8"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Zoology:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject9"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject9"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Social Science:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject10"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject10"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="History:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject11"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject11"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Geography:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject12"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ssubject12"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Total:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/total"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stotal"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Rank:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rank"
+                android:textStyle="normal|bold|italic"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/srank"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textStyle="normal|bold|italic"
+                android:text="NA" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
+

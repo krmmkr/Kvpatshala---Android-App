@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kvpatshala</string>
+    <string name="dialog_fire_missiles" id="dialog_fire_missiles">Test</string>
+</resources>

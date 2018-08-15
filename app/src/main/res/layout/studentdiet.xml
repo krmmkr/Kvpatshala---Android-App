@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Please select a Day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@android:color/background_light" />
+
+    <Spinner
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/spinner"
+
+    android:popupBackground="@android:color/background_light"
+    android:background="@android:color/background_light"
+        android:layout_margin="10dp"
+        android:spinnerMode="dialog"
+        android:minHeight="30dp" />
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/menu"
+                android:textStyle="bold|italic"
+                android:textColor="@android:color/background_light"
+                android:padding="3dp"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textAlignment="viewStart"
+                android:text="Menu:" />
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mbreakfast"
+                    android:maxLines="100"
+                    android:textStyle="normal|bold|italic"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+    </TableLayout>
+</ScrollView>
+</LinearLayout>
